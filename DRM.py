@@ -120,8 +120,8 @@ class DiffusionRobustModel(nn.Module):
         # Gaussian noise is added at this step
         x_t_start = self.diffusion.q_sample(x_start=x_start, t=t_batch, noise=noise)
 
-        # with torch.enable_grad():
-        with torch.no_grad():
+        with torch.enable_grad():
+        # with torch.no_grad():
             if multistep:
                 out = x_t_start
                 for i in range(t)[::-1]:
