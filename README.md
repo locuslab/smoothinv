@@ -1,4 +1,4 @@
-# Single Image Backdoor Inversion via Robust Smoothed Classifiers
+# SmoothInv
 
 Official PyTorch implementation of our CVPR 2023 paper:
 
