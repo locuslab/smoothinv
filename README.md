@@ -1,10 +1,12 @@
-# [SmoothInv](https://arxiv.org/abs/2303.00215)
+# Single Image Backdoor Inversion via Robust Smoothed Classifiers
 
-Official PyTorch implementation of **SmoothInv**, from the following paper:
+Official PyTorch implementation of our CVPR 2023 paper:
 
-[Single Image Backdoor Inversion via Robust Smoothed Classifiers](https://arxiv.org/abs/2303.00215). CVPR 2023.\
-[Mingjie Sun](https://eric-mingjie.github.io/), [Zico Kolter](https://zicokolter.com/)\
-Carnegie Mellon University, Bosch Center for AI
+> Single Image Backdoor Inversion via Robust Smoothed Classifiers       
+> Mingjie Sun, J. Zico Kolter       
+> Carnegie Mellon University, Bosch Center for AI      
+
+For more details, please check out our [<ins>**paper**</ins>](https://arxiv.org/abs/2303.00215).
 
 ---
 <p align="center">
@@ -69,7 +71,7 @@ This project is released under the MIT license. Please see the [LICENSE](LICENSE
 If you find this repository helpful, please consider citing:
 ```
 @Article{sun2023smoothinv,
-  author  = {Mingjie Sun and Zico Kolter},
+  author  = {Sun, Mingjie and Kolter, Zico},
   title   = {Single Image Backdoor Inversion via Robust Smoothed Classifiers},
   journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year    = {2023},
