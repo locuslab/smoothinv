@@ -11,10 +11,10 @@ import torchvision as tv
 from torch.utils import data
 from PIL import Image
 
-import open_clip
+# import open_clip
 import tqdm
 # from training.imagenet_zeroshot_data import imagenet_classnames, openai_imagenet_template
-from open_clip import tokenize
+# from open_clip import tokenize
 import torch.nn.functional as F
 
 
