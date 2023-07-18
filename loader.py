@@ -13,7 +13,7 @@ from PIL import Image
 
 import open_clip
 import tqdm
-from training.imagenet_zeroshot_data import imagenet_classnames, openai_imagenet_template
+# from training.imagenet_zeroshot_data import imagenet_classnames, openai_imagenet_template
 from open_clip import tokenize
 import torch.nn.functional as F
 
